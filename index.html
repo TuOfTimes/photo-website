@@ -48,29 +48,48 @@
                 <h2>Posts</h2>
             </div>
 
-            {% for post in site.posts %}
+            {% for post in paginator.posts %}
 
-            <div class="post-link">
-                <a href="{{ post.url }}">
-                    <span class="link"></span>
-                </a>
-                <img src="{{ post.title_image }}" alt="" class="post-image">
-                <div class="overlay" href="#posts">
-                    <div class="post-title">
-                        <h1>{{ post.title }}</h1>
-                        <h3>{{ post.subtitle }}</h3>
+                <div class="post-link">
+                    <a href="{{ post.url }}">
+                        <span class="link"></span>
+                    </a>
+                    <img src="{{ post.title_image }}" alt="" class="post-image">
+                    <div class="overlay" href="#posts">
+                        <div class="post-title">
+                            <h1>{{ post.title }}</h1>
+                            <h3>{{ post.subtitle }}</h3>
+                        </div>
                     </div>
                 </div>
-            </div>
 
             {% endfor %}
             
         </div>
     </main>
 
-    <footer>
-    </footer>
+
+    <div id="page-navigate">
+
+        {% if paginator.previous_page %}
+
+            <a href="{{ paginator.previous_page_path }}" class="btn" id="previous-page">
+                Newer
+            </a>
+
+        {% endif %}
+
+        {% if paginator.next_page %}
+
+            <a href="{{ paginator.next_page_path }}" class="btn" id="next-page">
+                Older
+            </a>
+
+        {% endif %}
+
+    </div>
 
     {% include scripts.html %}
+    
 </body>
 </html>
