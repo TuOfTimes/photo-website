@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    <main>
+        <div class="article">
+            <a href="index.html" class="btn" id="back">
+                Back
+            </a>
+            <div class="article-title">
+                <h1>{{ page.title }}</h1>
+                <h4>{{ page.date }}</h4>
+            </div>
+
+            
+
+            <img src= alt="title image" class="post-image">
+            <p>
+                {{ content }}
+            </p>
+
+
+        </div>
+        
+       
+    </main>
+
+    <footer>
+    </footer>
+
+    {% include scripts.html %}
+</body>
+</html>

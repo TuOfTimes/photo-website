@@ -1,0 +1,76 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    <main>
+        <div id="landing">
+            <div id="landing-text">
+                <div id="landing-text-inner">
+                    <h1>{{ site.title }}</h1>
+                    <h2>{{ site.subtitle }}</h2>
+                    <a href="#landing-display" class="btn" id="view-about">
+                        About Me
+                    </a>
+                    <br/>
+                    <a href="#posts" class="btn" id="view-posts">
+                        View Posts
+                    </a>
+                </div>
+            </div>
+            <div id="landing-image">
+                <div id="about">
+                    <span id="close">&times;</span>
+                    <div id="about-text">
+                        <div id="about-text-inner">
+                            <img src="/assets/img/headshot.png" id="headshot" height="192" width="192">
+                            <h3 align="justify">
+                                {{ site.description }}
+                            </h3>
+                            <div id="social">
+                                <a href="https://www.facebook.com/edwardhowrongtu" class="fa fa-facebook"></a>
+                                <a href="https://www.linkedin.com/in/edward-tu-869017134/" class="fa fa-linkedin"></a>
+                                <a href="https://github.com/TuOfTimes" class="fa fa-github"></a>
+                                <a href="/assets/resume.pdf" class="fa fa-file-text"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="posts">
+            <div id="header">
+                <h2>Posts</h2>
+            </div>
+
+            {% for post in site.posts %}
+
+            <div class="post-link">
+                <a href="{{ post.url }}">
+                    <span class="link"></span>
+                </a>
+                <img src="{{ post.title_image }}" alt="" class="post-image">
+                <div class="overlay" href="#posts">
+                    <div class="post-title">
+                        <h1>{{ post.title }}</h1>
+                        <h3>{{ post.subtitle }}</h3>
+                    </div>
+                </div>
+            </div>
+
+            {% endfor %}
+            
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+    {% include scripts.html %}
+</body>
+</html>
