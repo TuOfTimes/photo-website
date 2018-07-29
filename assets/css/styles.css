@@ -180,6 +180,10 @@ main {
 	margin: auto;
 }
 
+.clearer {
+	clear: both;
+}
+
 #previous-page, #next-page {
 	position: absolute;
 	margin-bottom: 20px;
@@ -195,6 +199,17 @@ main {
 
 #next-page {
 	right: 10px;
+}
+
+#page-num {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 18px;
+}
+
+#page-num a {
+	text-decoration: none;
+	color: #3366bb;
 }
 
 /* Style all font awesome icons */
@@ -217,6 +232,7 @@ main {
 
 .article {
 	background: #fff;
+	font-size: 18px;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-bottom: 25px;
@@ -258,6 +274,10 @@ main {
 @media(min-width: 700px) {
 	.btn {
 		padding: 1rem 3rem;
+	}
+
+	#page-num {
+		padding-top: 40px;
 	}
 
 	.article {

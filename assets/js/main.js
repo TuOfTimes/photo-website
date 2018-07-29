@@ -22,3 +22,7 @@ $('#close').on('click', function(){
     $('#about').fadeOut();
     $('#about').removeClass('about-visible');
 });
+
+$('#back').on('click', function(){
+    window.history.back();
+})
