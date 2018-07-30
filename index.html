@@ -58,7 +58,7 @@
                     <div class="overlay" href="#posts">
                         <div class="post-title">
                             <h1>{{ post.title }}</h1>
-                            <h3>{{ post.subtitle }}</h3>
+                            <h3>{{ post.date | date: "%b %-d %Y" }}</h3>
                         </div>
                     </div>
                 </div>

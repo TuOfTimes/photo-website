@@ -141,6 +141,11 @@ main {
 	width: 100%;
 }
 
+img + em {
+	font-size: 14px;
+	margin: 10px;
+}
+
 .overlay {
 	display: flex;
 	position: absolute;
