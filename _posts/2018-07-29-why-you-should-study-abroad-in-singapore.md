@@ -7,13 +7,15 @@ title_image: /assets/img/singapore.jpg
 title_caption: Hello
 ---
 
-My parents earned their Masters degrees at the Nanyang Technological University in Singapore. I was born at the Singapore General Hospital in 1998, but I moved away before I was old enough to remember. Thus, when it came to deciding where to study abroad, my decision was easy. Singapore has a world-class education system, and my personal connection to the country was undeniable. 
+I was fortunate enough to have the opportunity to study abroad during my second year of university. While selecting a foreign university to study at may sound like a tall task, it only took me a few minutes to decide that I wanted to go to Singapore.
 
-After my semester there, I realize that Singapore is the perfect study abroad destination... 
+My parents met in Singapore while pursuing theire Masters degrees, and I was born at the Singapore General Hospital in 1998. However, I have no recollection of the city, as I moved away when I was quite young. My personal connection to the city was very strong, and on top of that, the city boasted one of the best education systems in the world. 
+
+After spending a semester in Singapore, I must say that the experience far exceeded my expectations. After speaking to friends who went on exchange elsewhere (mostly in Europe), it seems that Singapore is far superior. Here's why.
 
 ![MRT]({{ "/assets/img/hanoi.jpg" | absolute_url }}){:class="post-image"}
 
-A city and nation, Singapore is extremely small. While that can be a little boring, there are still countless things to do. The public transportation system is excellent and extremely affordable, so most locations are usually no more than half an hour away. 
+Due to its history, Singapore has a habit of being brutally pragmatic - everything is done with a purpose and nothing is overlooked. As a result, the public transportation system is excellent and extremely affordable, and most locations are usually no more than half an hour away. By public transportation, one can explore the countryside, shop at Orchard Road, and people watch in the Downtown area. 
 
 Everything in Singapore has a purpose. This brutally pragmatic mindset may take its toll on the local population, but it also creates an extremely efficient and clean city. The standard of living is extremely high...
 
